@@ -42,7 +42,7 @@ const getWeatherDetailes = (cityName, lat, lon) => {
             }
         });
 
-        // clearing previous weather data
+        // clearing previous weather data.
         cityInput.value = "";
         currentWeatherDiv.innerHTML = "";
         weatherCardsDiv.innerHTML = "";

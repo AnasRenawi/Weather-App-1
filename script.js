@@ -6,6 +6,7 @@ const weatherCardsDiv = document.querySelector(".weather-cards");
 
 const API_KEY = "28fb52726766f621624a780ac08d9bfe";// get the weather data from openweathermap api
 
+
 const createWeatherCard = (cityName, weatherItem, index) => {
     if(index === 0) {
         return `<div class="details">
